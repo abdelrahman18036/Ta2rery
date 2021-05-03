@@ -1,0 +1,59 @@
+.qrbox {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid green;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+textarea {
+    outline: none;
+    height: 100px;
+    padding: 1 rem;
+    border: 2px solid lightblue;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+    width: 300px;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    width: 100px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: brown;
+
+}
+
+body {
+    background: url(tt.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
